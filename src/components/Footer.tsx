@@ -77,18 +77,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-white/80 font-paragraph text-sm">7909455907</span>
+                <span className="text-white/80 font-paragraph text-sm">+91 7909455907</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-white/80 font-paragraph text-sm">
-                  info@veetechnologies.com
+                  asengineeringservices41wn@gmail.com
                 </span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-white/80 font-paragraph text-sm">
-                  United States
+                  India
                 </span>
               </li>
             </ul>

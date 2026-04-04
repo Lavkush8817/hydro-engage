@@ -358,11 +358,11 @@ export default function HomePage() {
         <div className="container mx-auto px-4 py-24 relative z-10 text-center">
           <AnimatedElement>
             <a 
-              href="mailto:info@veetechnologies.com" 
+              href="mailto:asengineeringservices41wn@gmail.com" 
               className="text-3xl md:text-4xl lg:text-5xl font-light hover:text-secondary transition-colors inline-flex items-center gap-4 mb-12"
             >
               <Mail className="w-8 h-8 md:w-10 md:h-10 text-secondary" />
-              info@veetechnologies.com
+              asengineeringservices41wn@gmail.com
             </a>
 
             <div className="flex items-center justify-center gap-8 text-sm tracking-widest uppercase text-gray-400">

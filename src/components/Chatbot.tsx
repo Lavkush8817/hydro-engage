@@ -28,7 +28,7 @@ export default function Chatbot() {
     {
       id: '1',
       type: 'bot',
-      text: 'Hello! 👋 Welcome to A&S Engineering Services. How can I help you today? You can ask about our services or book an appointment with our engineers.',
+      text: 'Hello! 👋 Welcome to A&S Engineering Services. How can I help you today? You can ask about our services or book an appointment with our engineers. For direct consultation, you can also reach us on WhatsApp at +91 7909455907.',
       timestamp: new Date(),
     },
   ]);

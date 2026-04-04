@@ -143,10 +143,10 @@ export default function ContactPage() {
                             Phone
                           </h3>
                           <p className="text-muted-foreground font-paragraph">
-                            USA: +1 (800) 786-2043
+                            India: +91 7909455907
                           </p>
                           <p className="text-muted-foreground font-paragraph">
-                            International: +1 (800) 2343-0400
+                            WhatsApp: +91 7909455907
                           </p>
                         </div>
                       </div>
@@ -166,10 +166,10 @@ export default function ContactPage() {
                             Email
                           </h3>
                           <p className="text-muted-foreground font-paragraph">
-                            info@veetechnologies.com
+                            asengineeringservices41wn@gmail.com
                           </p>
                           <p className="text-muted-foreground font-paragraph">
-                            support@veetechnologies.com
+                            For all appointments & inquiries
                           </p>
                         </div>
                       </div>
@@ -189,7 +189,7 @@ export default function ContactPage() {
                             Location
                           </h3>
                           <p className="text-muted-foreground font-paragraph">
-                            United States
+                            India
                           </p>
                           <p className="text-muted-foreground font-paragraph">
                             Serving clients worldwide
@@ -208,8 +208,8 @@ export default function ContactPage() {
                       Business Hours
                     </h3>
                     <div className="space-y-2 text-muted-foreground font-paragraph">
-                      <p>Monday - Friday: 9:00 AM - 6:00 PM EST</p>
-                      <p>Saturday: 10:00 AM - 4:00 PM EST</p>
+                      <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
+                      <p>Saturday: 10:00 AM - 4:00 PM IST</p>
                       <p>Sunday: Closed</p>
                     </div>
                   </CardContent>
