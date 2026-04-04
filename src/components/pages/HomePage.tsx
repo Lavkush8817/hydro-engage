@@ -101,7 +101,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background font-paragraph text-foreground" dir="ltr">
       <Header />
-
       {/* HERO SECTION */}
       <section className="relative h-[70vh] min-h-[600px] flex items-center overflow-hidden">
         {/* Background Image with Overlay */}
@@ -151,15 +150,12 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* INTRO SECTION */}
       <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-4">
           <AnimatedElement>
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-heading text-secondary mb-10 text-center md:text-left">
-                Product / Process Engineering & Manufacturing
-              </h2>
+              <h2 className="text-3xl md:text-4xl font-heading text-secondary mb-10 text-center md:text-left">Construction Equipment Services & Expertise</h2>
               
               <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
                 <p>
@@ -179,7 +175,6 @@ export default function HomePage() {
           </AnimatedElement>
         </div>
       </section>
-
       {/* SERVICES SPLIT SECTION */}
       <section className="bg-[#5A5A5A] text-white">
         <div className="flex flex-col lg:flex-row min-h-[600px]">
@@ -259,7 +254,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       {/* TESTIMONIALS SECTION */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-4">
@@ -345,7 +339,6 @@ export default function HomePage() {
           </AnimatedElement>
         </div>
       </section>
-
       {/* PRE-FOOTER CONTACT SECTION */}
       <section className="relative bg-[#4A4A4A] text-white overflow-hidden">
         {/* Large Background Text */}
@@ -379,7 +372,6 @@ export default function HomePage() {
           </AnimatedElement>
         </div>
       </section>
-
       {/* CONTACT INFO BAR */}
       <section className="bg-white relative border-b border-gray-100">
         <div className="container mx-auto px-4">
@@ -412,7 +404,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
