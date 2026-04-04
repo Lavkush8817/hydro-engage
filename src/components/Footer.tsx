@@ -8,9 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-heading font-bold mb-4 text-secondary">
-              veetechnologies.com
-            </h3>
+            <h3 className="text-xl font-heading font-bold mb-4 text-secondary">A&S Engineering services</h3>
             <p className="text-white/80 font-paragraph text-sm leading-relaxed">
               Delivering innovative engineering solutions with expertise across industries. 
               Your trusted partner for product engineering and manufacturing excellence.
@@ -79,9 +77,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-white/80 font-paragraph text-sm">
-                  +1 (800) 786-2043
-                </span>
+                <span className="text-white/80 font-paragraph text-sm">7909455907</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 text-secondary mr-2 flex-shrink-0 mt-0.5" />
@@ -101,9 +97,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
-          <p className="text-white/60 font-paragraph text-sm">
-            Copyright © veetechnologies.com 2026 All Rights Reserved.
-          </p>
+          <p className="text-white/60 font-paragraph text-sm">Copyright © a&sengineeringservices.com 2026 All Rights Reserved.</p>
         </div>
       </div>
     </footer>
