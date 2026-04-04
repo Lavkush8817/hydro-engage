@@ -107,7 +107,7 @@ export default function HomePage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://static.wixstatic.com/media/06e14d_1fb2474ffc5a4240bc9492fded935d75~mv2.png?originWidth=1152&originHeight=576" 
+            src="https://static.wixstatic.com/media/06e14d_c572068c7ecf45e4a26ae7e85af061c5~mv2.png" 
             alt="Engineering Background" 
             className="w-full h-full object-cover"
           />
