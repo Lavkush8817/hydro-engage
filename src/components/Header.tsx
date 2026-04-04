@@ -16,9 +16,7 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <div className="text-2xl font-heading font-bold text-white">
-              veetechnologies.com
-            </div>
+            <div className="text-2xl font-heading font-bold text-white">A&S Engineering Services</div>
           </Link>
 
           {/* Desktop Navigation */}
