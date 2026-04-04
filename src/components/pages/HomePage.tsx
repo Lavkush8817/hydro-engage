@@ -155,20 +155,27 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <AnimatedElement>
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-heading text-secondary mb-10 text-center md:text-left">Construction Equipment Services & Expertise</h2>
+              <h2 className="text-3xl md:text-4xl font-heading text-secondary mb-10 text-center md:text-left">The Pinnacle of Hydraulic Engineering & Reliable Solutions</h2>
               
               <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
                 <p>
-                  Is your organization facing challenges with competition, time to market, and cost to market? Do you need help with increasing the design and manufacturing revenue turns? Our Product Engineering and Manufacturing services help companies that are challenged with new technologies, process optimization, and manufacturing development.
+                  Welcome to A & S Engineering Services, where power meets precision. We are dedicated to providing the highest quality service for all types of hydraulic rock breakers, regardless of the brand. Our mission is to ensure that your machinery never stops, no matter how tough the terrain.
                 </p>
                 <p>
-                  Our engineers will take your vision and necessary requirements, then transform them into here and now products. Our experts work closely with your product development team to identify the appropriate technologies needed to achieve the optimum design, materials and manufacturability.
+                  <strong className="text-foreground">Expertise in Every Component</strong><br/>
+                  We don't just repair; we restore. Our team specializes in diagnosing and fixing every intricate part of a hydraulic breaker. From minor adjustments to major overhauls, we solve problems related to core parts (Front Head, Back Head, Piston, and Cylinder), structural integrity (Through Bolts, Bracket Body issues, and Mounting Bolt failures), and performance tuning (Nitrogen Gas charging and resolving all types of stroke and pressure-related problems).
                 </p>
                 <p>
-                  Our process starts with a clear understanding of all technical, quality and safety requirements. We then utilize cutting-edge 3D modeling tools, 2D drawings, thorough analysis, and other disciplines as necessary to create a custom product fit to suit your exact needs.
+                  <strong className="text-foreground">Multi-Brand Machine Servicing</strong><br/>
+                  Beyond being masters of rock breakers, we extend our premium technical services to world-class heavy machinery. We provide specialized maintenance and repair for Tata, Hyundai, Sany and other leading excavator brands.
                 </p>
                 <p>
-                  We leverage our expertise from cross-industry experience in automotive, aerospace, heavy engineering and industrial products to deliver solutions with the highest possible design and quality standards. Our product engineering and manufacturing solutions enable companies to seamlessly embrace the digital world to transform their traditional business processes into next generation enterprises geared for optimal performance.
+                  <strong className="text-foreground">Driven by a Qualified Engineering Team</strong><br/>
+                  What truly defines A & S Engineering Services is our elite technical workforce. We believe that professional machinery deserves professional hands. Our workforce consists of a high-performing engineer team, with every engineer professionally trained, holding B.Tech or Diploma degrees in Mechanical Engineering. This academic background allows us to deliver solutions based on scientific accuracy and technical depth.
+                </p>
+                <p>
+                  <strong className="text-foreground">Why Choose A & S Engineering Services?</strong><br/>
+                  In an industry where every hour of downtime matters, we provide the reliability you need. We combine advanced engineering knowledge with practical field experience to deliver best-in-class quality that guarantees durability and maximizes your productivity. Any Brand, Any Problem, One Solution: A & S Engineering Services.
                 </p>
               </div>
             </div>
