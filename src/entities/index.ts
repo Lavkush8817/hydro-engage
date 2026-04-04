@@ -4,6 +4,33 @@
  */
 
 /**
+ * Collection ID: appointments
+ * Interface for CustomerAppointments
+ */
+export interface CustomerAppointments {
+  _id: string;
+  _createdDate?: Date;
+  _updatedDate?: Date;
+  /** @wixFieldType text */
+  customerName?: string;
+  /** @wixFieldType text */
+  customerEmail?: string;
+  /** @wixFieldType text */
+  customerPhone?: string;
+  /** @wixFieldType text */
+  serviceType?: string;
+  /** @wixFieldType date */
+  preferredDate?: Date | string;
+  /** @wixFieldType time */
+  preferredTime?: any;
+  /** @wixFieldType text */
+  problemDescription?: string;
+  /** @wixFieldType text */
+  appointmentStatus?: string;
+}
+
+
+/**
  * Collection ID: clienttestimonials
  * Interface for ClientTestimonials
  */
