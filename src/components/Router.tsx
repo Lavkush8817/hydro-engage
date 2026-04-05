@@ -5,6 +5,7 @@ import ErrorPage from '@/integrations/errorHandlers/ErrorPage';
 import HomePage from '@/components/pages/HomePage';
 import ServicesPage from '@/components/pages/ServicesPage';
 import ServiceDetailPage from '@/components/pages/ServiceDetailPage';
+import ProductsPage from '@/components/pages/ProductsPage';
 import AboutPage from '@/components/pages/AboutPage';
 import ContactPage from '@/components/pages/ContactPage';
 
@@ -43,6 +44,13 @@ const router = createBrowserRouter([
         element: <ServiceDetailPage />,
         routeMetadata: {
           pageIdentifier: 'service-detail',
+        },
+      },
+      {
+        path: "products",
+        element: <ProductsPage />,
+        routeMetadata: {
+          pageIdentifier: 'products',
         },
       },
       {

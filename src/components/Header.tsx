@@ -58,6 +58,15 @@ export default function Header() {
               </div>
 
               <Link
+                to="/products"
+                className={`text-white hover:text-secondary transition-colors duration-200 font-paragraph ${
+                  isActive('/products') ? 'text-secondary' : ''
+                }`}
+              >
+                Products
+              </Link>
+
+              <Link
                 to="/about"
                 className={`text-white hover:text-secondary transition-colors duration-200 font-paragraph ${
                   isActive('/about') ? 'text-secondary' : ''
@@ -108,6 +117,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
+              </Link>
+              <Link
+                to="/products"
+                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Products
               </Link>
               <Link
                 to="/about"
