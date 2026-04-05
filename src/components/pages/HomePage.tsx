@@ -392,12 +392,8 @@ export default function HomePage() {
             {/* Phone Numbers */}
             <div className="mt-12 md:mt-0 md:ml-64 flex flex-col sm:flex-row gap-4 md:gap-12 text-foreground text-sm md:text-base">
               <div>
-                <span className="text-gray-500 text-xs md:text-sm mr-2">USA :</span>
-                <a href="tel:+19297302544" className="font-medium hover:text-secondary transition-colors">(929) 730-2544</a>
-              </div>
-              <div>
-                <span className="text-gray-500 text-xs md:text-sm mr-2">INDIA:</span>
-                <a href="tel:+9108023085600" className="font-medium hover:text-secondary transition-colors">080 2308 5600</a>
+                <span className="text-gray-500 text-xs md:text-sm mr-2">INDIA :</span>
+                <a href="tel:+917909455907" className="font-medium hover:text-secondary transition-colors">+91 7909455907</a>
               </div>
             </div>
 

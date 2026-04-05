@@ -28,7 +28,7 @@ export default function Chatbot() {
     {
       id: '1',
       type: 'bot',
-      text: 'Hello! 👋 Welcome to A&S Engineering Services. How can I help you today? You can ask about our services or book an appointment with our engineers. For direct consultation, you can also reach us on WhatsApp at +91 7909455907.',
+      text: 'Hello! 👋 Welcome to A&S Engineering services. How can I help you today? You can ask about our services or book an appointment with our engineers. For direct consultation, you can also reach us on WhatsApp at +91 7909455907.',
       timestamp: new Date(),
     },
   ]);
@@ -236,7 +236,7 @@ export default function Chatbot() {
           {/* Header */}
           <div className="bg-primary text-white p-4 flex items-center justify-between">
             <div>
-              <h3 className="font-heading font-bold text-lg">A&S Engineering</h3>
+              <h3 className="font-heading font-bold text-lg">A&S Engineering services</h3>
               <p className="text-sm text-gray-200">Chat with our team</p>
             </div>
           </div>

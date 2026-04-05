@@ -5,10 +5,10 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-white">
       <div className="container mx-auto px-4 py-8 md:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 md:gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg md:text-xl font-heading font-bold mb-3 md:mb-4 text-secondary">A&S Engineering</h3>
+            <h3 className="text-lg md:text-xl font-heading font-bold mb-3 md:mb-4 text-secondary">A&S Engineering services</h3>
             <p className="text-white/80 font-paragraph text-xs md:text-sm leading-relaxed">
               Delivering innovative engineering solutions with expertise across industries. Your trusted partner for product engineering and manufacturing excellence.
             </p>
@@ -89,6 +89,35 @@ export default function Footer() {
                 <span className="text-white/80 font-paragraph text-xs md:text-sm">
                   India
                 </span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <div>
+            <h4 className="text-base md:text-lg font-heading font-semibold mb-3 md:mb-4 text-white">
+              Follow Us
+            </h4>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="https://x.com/services44311"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-secondary transition-colors duration-200 font-paragraph text-xs md:text-sm"
+                >
+                  X (Twitter)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/asengineeringservices41wn/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/80 hover:text-secondary transition-colors duration-200 font-paragraph text-xs md:text-sm"
+                >
+                  Instagram
+                </a>
               </li>
             </ul>
           </div>

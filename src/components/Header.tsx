@@ -18,7 +18,7 @@ export default function Header() {
           <div className="flex items-center justify-between py-3 md:py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="text-lg md:text-2xl font-heading font-bold text-white truncate">A&S Engineering</div>
+              <div className="text-lg md:text-2xl font-heading font-bold text-white truncate">A&S Engineering services</div>
             </Link>
 
             {/* Desktop Navigation */}
