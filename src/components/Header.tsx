@@ -15,10 +15,10 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-50 bg-primary shadow-lg">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between py-4">
+          <div className="flex items-center justify-between py-3 md:py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <div className="text-2xl font-heading font-bold text-white">A&S Engineering Services</div>
+              <div className="text-lg md:text-2xl font-heading font-bold text-white truncate">A&S Engineering</div>
             </Link>
 
             {/* Desktop Navigation */}
@@ -103,45 +103,45 @@ export default function Header() {
 
           {/* Mobile Navigation */}
           {isMenuOpen && (
-            <nav className="lg:hidden pb-4 space-y-2">
+            <nav className="lg:hidden pb-4 space-y-1 max-h-[70vh] overflow-y-auto">
               <Link
                 to="/"
-                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                className="block py-2.5 px-2 text-white hover:text-secondary transition-colors font-paragraph text-sm"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 to="/services"
-                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                className="block py-2.5 px-2 text-white hover:text-secondary transition-colors font-paragraph text-sm"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
               <Link
                 to="/products"
-                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                className="block py-2.5 px-2 text-white hover:text-secondary transition-colors font-paragraph text-sm"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Products
               </Link>
               <Link
                 to="/about"
-                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                className="block py-2.5 px-2 text-white hover:text-secondary transition-colors font-paragraph text-sm"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 to="/contact"
-                className="block py-2 text-white hover:text-secondary transition-colors font-paragraph"
+                className="block py-2.5 px-2 text-white hover:text-secondary transition-colors font-paragraph text-sm"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
               <Button
                 asChild
-                className="w-full bg-secondary hover:bg-secondary/90 text-white font-paragraph mt-2"
+                className="w-full bg-secondary hover:bg-secondary/90 text-white font-paragraph mt-3 h-10 text-sm"
               >
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
                   Get Started
