@@ -13,71 +13,73 @@ const ProductsPage = () => {
   const products = [
     {
       id: 1,
-      name: 'Industrial Pumps',
-      category: 'pumps',
-      description: 'High-performance industrial pumps for various applications',
-      image: 'https://static.wixstatic.com/media/06e14d_621099791d42425baa4c6376cab5516d~mv2.png?originWidth=256&originHeight=192',
+      name: 'Excavator Teeth & Adapters',
+      category: 'spares',
+      description: 'Premium Kubota excavator teeth and adapters engineered for maximum durability and performance. Manufactured with high-grade alloy steel for extended service life and superior wear resistance in demanding excavation operations.',
+      image: 'https://static.wixstatic.com/media/06e14d_55b25a72810d416eb7dd36f1737c14ac~mv2.webp',
     },
     {
       id: 2,
-      name: 'Control Systems',
-      category: 'controls',
-      description: 'Advanced automation and control systems',
-      image: 'https://static.wixstatic.com/media/06e14d_48073fc30085490291d3e6ce2b691ae8~mv2.png?originWidth=256&originHeight=192',
+      name: 'Hydraulic Fasteners & Bolts',
+      category: 'hydraulics',
+      description: 'Heavy-duty Kubota hydraulic fasteners and bolts crafted from premium steel alloys. Built to withstand extreme pressure and vibration, ensuring reliable performance and long-lasting durability in hydraulic systems.',
+      image: 'https://static.wixstatic.com/media/06e14d_05aacc7436c74a7c9323d30032398dfb~mv2.webp',
     },
     {
       id: 3,
-      name: 'Hydraulic Components',
-      category: 'hydraulics',
-      description: 'Premium hydraulic parts and assemblies',
-      image: 'https://static.wixstatic.com/media/06e14d_0d0a8886614348fea2391bae18f3787e~mv2.png?originWidth=256&originHeight=192',
+      name: 'Engine Seals & Gaskets',
+      category: 'spares',
+      description: 'Precision-engineered Kubota engine seals and gaskets designed for optimal performance and longevity. Made from advanced elastomer materials that resist heat, pressure, and chemical degradation for reliable engine protection.',
+      image: 'https://static.wixstatic.com/media/06e14d_6c4d76da9e33451495efae30b8bbf722~mv2.webp',
     },
     {
       id: 4,
-      name: 'Electrical Panels',
-      category: 'electrical',
-      description: 'Custom electrical panels and switchgear',
-      image: 'https://static.wixstatic.com/media/06e14d_02dd7a29aeb44bed8a5e9619be4f6cdd~mv2.png?originWidth=256&originHeight=192',
+      name: 'Transmission Components',
+      category: 'hydraulics',
+      description: 'Kubota transmission components engineered with precision for smooth operation and extended durability. High-quality materials ensure consistent performance under heavy loads and demanding working conditions.',
+      image: 'https://static.wixstatic.com/media/06e14d_7ac51409f8bd43a79794310a933aa908~mv2.webp',
     },
     {
       id: 5,
-      name: 'Spare Parts Kit',
-      category: 'spares',
-      description: 'Complete spare parts kits for maintenance',
-      image: 'https://static.wixstatic.com/media/06e14d_aef671743d1f425190749bf312d66708~mv2.png?originWidth=256&originHeight=192',
+      name: 'Fuel & Air Filters',
+      category: 'filtration',
+      description: 'High-efficiency Kubota fuel and air filters designed to protect engine components and maximize performance. Premium filtration media ensures clean fuel and air supply, extending engine life and reducing maintenance costs.',
+      image: 'https://static.wixstatic.com/media/06e14d_f5851c8b465e47828ea2e3d1e0f353e2~mv2.webp',
     },
     {
       id: 6,
-      name: 'Pressure Gauges',
-      category: 'instruments',
-      description: 'Precision measurement instruments',
-      image: 'https://static.wixstatic.com/media/06e14d_23137387a3f0410d9cd5d9b92547fc6b~mv2.png?originWidth=256&originHeight=192',
+      name: 'Hydraulic Cylinders',
+      category: 'hydraulics',
+      description: 'Professional-grade Kubota hydraulic cylinders built for precision and reliability. Manufactured with hardened steel and advanced sealing technology for superior performance in heavy-duty industrial applications.',
+      image: 'https://static.wixstatic.com/media/06e14d_bb231b0c890b4137ba37a746ed3f680d~mv2.webp',
     },
     {
       id: 7,
-      name: 'Valve Assemblies',
-      category: 'valves',
-      description: 'Industrial-grade valve systems',
-      image: 'https://static.wixstatic.com/media/06e14d_8c60031dd7b744df99012b68da9d534f~mv2.png?originWidth=256&originHeight=192',
+      name: 'Bucket Teeth & Wear Parts',
+      category: 'spares',
+      description: 'Durable Kubota bucket teeth and wear parts engineered for maximum impact resistance and longevity. Premium alloy construction provides excellent wear characteristics in abrasive mining and construction environments.',
+      image: 'https://static.wixstatic.com/media/06e14d_aef6f8ff6ab54b128439567026b1c21b~mv2.webp',
     },
     {
       id: 8,
-      name: 'Filtration Systems',
-      category: 'filtration',
-      description: 'Advanced filtration and purification systems',
-      image: 'https://static.wixstatic.com/media/06e14d_076d4de2e41c46f096764cba6267eb36~mv2.png?originWidth=256&originHeight=192',
+      name: 'Engine Bearings & Bushings',
+      category: 'spares',
+      description: 'High-precision Kubota engine bearings and bushings manufactured to strict tolerances. Advanced materials provide excellent load-bearing capacity and thermal stability for reliable long-term engine performance.',
+      image: 'https://static.wixstatic.com/media/06e14d_1cb35d5d2382485c8cb939a8b68a487d~mv2.webp',
+    },
+    {
+      id: 9,
+      name: 'Undercarriage Components',
+      category: 'spares',
+      description: 'Robust Kubota undercarriage components designed for extreme durability and reliability. Built with reinforced steel construction to withstand continuous stress and provide extended service life in challenging terrain.',
+      image: 'https://static.wixstatic.com/media/06e14d_758f05a486b84fa092d26676eef37988~mv2.webp',
     },
   ];
 
   const categories = [
     { id: 'all', label: 'All Products' },
-    { id: 'pumps', label: 'Pumps' },
-    { id: 'controls', label: 'Controls' },
-    { id: 'hydraulics', label: 'Hydraulics' },
-    { id: 'electrical', label: 'Electrical' },
     { id: 'spares', label: 'Spare Parts' },
-    { id: 'instruments', label: 'Instruments' },
-    { id: 'valves', label: 'Valves' },
+    { id: 'hydraulics', label: 'Hydraulics' },
     { id: 'filtration', label: 'Filtration' },
   ];
 
@@ -119,10 +121,10 @@ const ProductsPage = () => {
             className="text-center"
           >
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
-              Our Products
+              Kubota Spare Parts & Components
             </h1>
             <p className="font-paragraph text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-              Explore our comprehensive range of industrial products and components designed for excellence
+              Premium quality spare parts and components provided by Kubota. Engineered for durability, reliability, and superior performance in demanding industrial applications.
             </p>
           </motion.div>
         </div>
@@ -225,8 +227,8 @@ const ProductsPage = () => {
                     <div>
                       <h3 className="font-heading font-bold text-foreground mb-1">Email Us</h3>
                       <p className="font-paragraph text-muted-foreground">
-                        <a href="mailto:info@company.com" className="text-link hover:underline">
-                          info@company.com
+                        <a href="mailto:asengineeringservices41wn@gmail.com" className="text-link hover:underline">
+                          asengineeringservices41wn@gmail.com
                         </a>
                       </p>
                     </div>
@@ -239,8 +241,8 @@ const ProductsPage = () => {
                     <div>
                       <h3 className="font-heading font-bold text-foreground mb-1">Call Us</h3>
                       <p className="font-paragraph text-muted-foreground">
-                        <a href="tel:+1234567890" className="text-link hover:underline">
-                          +1 (234) 567-890
+                        <a href="tel:+917909455907" className="text-link hover:underline">
+                          +91 7909455907
                         </a>
                       </p>
                     </div>
