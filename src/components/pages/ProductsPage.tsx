@@ -12,7 +12,8 @@ const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedProduct, setSelectedProduct] = useState(null);
 
-  const products = [
+  // Sample products - these are the original products displayed on the website
+  const sampleProducts = [
     {
       id: 1,
       name: 'Excavator Teeth & Adapters',
@@ -77,6 +78,8 @@ const ProductsPage = () => {
       image: 'https://static.wixstatic.com/media/06e14d_758f05a486b84fa092d26676eef37988~mv2.webp',
     },
   ];
+
+  const products = sampleProducts;
 
   const categories = [
     { id: 'all', label: 'All Products' },
