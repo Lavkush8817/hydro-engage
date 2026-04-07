@@ -37,10 +37,11 @@ const ProductsPage = () => {
     },
     {
       id: 4,
-      name: 'Transmission Components',
-      category: 'hydraulics',
-      description: 'Qubota transmission components engineered with precision for smooth operation and extended durability. High-quality materials ensure consistent performance under heavy loads and demanding working conditions.',
-      image: 'https://static.wixstatic.com/media/06e14d_7ac51409f8bd43a79794310a933aa908~mv2.webp',
+      name: 'Pins & Bushes',
+      category: 'spares',
+      description: 'Qubota offers robust excavator pins and bushings, crafted from premium steel for superior strength and enduring performance in challenging environments.',
+      longDescription: 'Qubota specializes in the production of excavator pins and bushings, engineered to deliver exceptional resilience under the most rigorous operational demands. Utilizing high-grade steel, these components ensure unparalleled dependability and extended service life. Through stringent testing and precise manufacturing techniques, Qubota provides optimal solutions that enhance your excavator\'s efficiency. Rely on Qubota for outstanding pins and bushings built to endure the harshest conditions.',
+      image: 'https://static.wixstatic.com/media/06e14d_1cfde715435b4aaa8761ff2fc1447127~mv2.webp',
     },
     {
       id: 5,
