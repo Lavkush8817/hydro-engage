@@ -3,12 +3,14 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
-import { Mail, Phone, MessageSquare } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { Mail, Phone, MessageSquare, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Image } from '@/components/ui/image';
 
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedProduct, setSelectedProduct] = useState(null);
 
   const products = [
     {
@@ -179,6 +181,7 @@ const ProductsPage = () => {
                       {product.description}
                     </p>
                     <Button
+                      onClick={() => setSelectedProduct(product)}
                       className="w-full bg-secondary hover:bg-accent text-secondary-foreground font-paragraph font-medium"
                     >
                       Learn More
@@ -269,6 +272,57 @@ const ProductsPage = () => {
       </section>
 
       <Footer />
+
+      {/* Product Detail Modal */}
+      <Dialog open={!!selectedProduct} onOpenChange={(open) => !open && setSelectedProduct(null)}>
+        <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+          {selectedProduct && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="font-heading text-2xl text-foreground">
+                  {selectedProduct.name}
+                </DialogTitle>
+              </DialogHeader>
+              <div className="space-y-6">
+                <div className="w-full h-64 bg-muted rounded-lg overflow-hidden">
+                  <Image 
+                    src={selectedProduct.image} 
+                    alt={selectedProduct.name} 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <h3 className="font-heading text-lg font-bold text-foreground mb-2">
+                    Product Description
+                  </h3>
+                  <p className="font-paragraph text-base text-muted-foreground leading-relaxed">
+                    {selectedProduct.description}
+                  </p>
+                </div>
+                <div className="bg-muted rounded-lg p-4">
+                  <p className="font-paragraph text-sm text-muted-foreground">
+                    <span className="font-bold text-foreground">Category:</span> {selectedProduct.category.charAt(0).toUpperCase() + selectedProduct.category.slice(1)}
+                  </p>
+                </div>
+                <div className="flex gap-3">
+                  <Button
+                    onClick={() => setSelectedProduct(null)}
+                    className="flex-1 bg-muted text-foreground hover:bg-border font-paragraph font-medium"
+                  >
+                    Close
+                  </Button>
+                  <Button
+                    className="flex-1 bg-secondary hover:bg-accent text-secondary-foreground font-paragraph font-medium"
+                    onClick={() => window.location.href = '/contact'}
+                  >
+                    Inquire Now
+                  </Button>
+                </div>
+              </div>
+            </>
+          )}
+        </DialogContent>
+      </Dialog>
     </div>
   );
 };
