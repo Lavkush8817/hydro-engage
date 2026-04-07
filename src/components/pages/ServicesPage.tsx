@@ -97,13 +97,33 @@ export default function ServicesPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <AnimatedElement>
-            <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-                Engineering Services & Solutions
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-4xl md:text-5xl font-heading font-bold mb-8">
+                A & S Engineering Services
               </h1>
-              <p className="text-lg md:text-xl text-white/90 font-paragraph">
-                Comprehensive product engineering and manufacturing solutions tailored to your needs
-              </p>
+              <div className="space-y-6 text-base md:text-lg text-white/95 font-paragraph leading-relaxed">
+                <p>
+                  Where power meets precision. We are dedicated to providing the highest quality service for all types of hydraulic rock breakers, regardless of the brand. Our mission is to ensure that your machinery never stops, no matter how tough the terrain.
+                </p>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                  <h2 className="text-xl md:text-2xl font-heading font-semibold mb-4">Expertise in Every Component</h2>
+                  <p>
+                    We don't just repair; we restore. Our team specializes in diagnosing and fixing every intricate part of a hydraulic breaker. From minor adjustments to major overhauls, we solve problems related to core parts (Front Head, Back Head, Piston, and Cylinder), structural integrity (Through Bolts, Bracket Body issues, and Mounting Bolt failures), and performance tuning (Nitrogen Gas charging and resolving all types of stroke and pressure-related problems).
+                  </p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                  <h2 className="text-xl md:text-2xl font-heading font-semibold mb-4">Multi-Brand Machine Servicing</h2>
+                  <p>
+                    Beyond being masters of rock breakers, we extend our premium technical services to world-class heavy machinery. We provide specialized maintenance and repair for Tata, Hyundai, Sany, and other leading excavator brands. Our engineers possess expertise in every single machine in construction equipment and larger machinery—any brand, any problem, one solution.
+                  </p>
+                </div>
+                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
+                  <h2 className="text-xl md:text-2xl font-heading font-semibold mb-4">Driven by a Qualified Engineering Team</h2>
+                  <p>
+                    What truly defines A & S Engineering Services is our elite technical workforce. We believe that professional machinery deserves professional hands. Our workforce consists of a high-performing engineer team, with every engineer professionally trained, holding B.Tech or Diploma degrees in Mechanical Engineering. This academic background allows us to deliver solutions based on scientific accuracy and technical depth.
+                  </p>
+                </div>
+              </div>
             </div>
           </AnimatedElement>
         </div>
