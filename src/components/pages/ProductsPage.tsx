@@ -69,10 +69,11 @@ const ProductsPage = () => {
     },
     {
       id: 8,
-      name: 'Engine Bearings & Bushings',
+      name: 'Onboard Weighing System',
       category: 'spares',
-      description: 'High-precision Qubota engine bearings and bushings manufactured to strict tolerances. Advanced materials provide excellent load-bearing capacity and thermal stability for reliable long-term engine performance.',
-      image: 'https://static.wixstatic.com/media/06e14d_1cb35d5d2382485c8cb939a8b68a487d~mv2.webp',
+      description: 'Qubota, as the official distributor of LOADRITE, offers advanced onboard weighing systems for precise, real-time load measurement, enhancing productivity and reducing operational costs by eliminating scale house trips.',
+      longDescription: 'Qubota is the official distributor for the New Zealand-based LOADRITE onboard weighing system, engineered for unparalleled accuracy. This innovative system enables operators to precisely calculate, weigh, and record each load as it is lifted, eliminating the need for repetitive trips to a scale house. By integrating LOADRITE, businesses can significantly save time, boost productivity, and mitigate wear and tear or damage caused by overloaded trucks.\n\nKey Features:\n• Real-time load measurement for enhanced accuracy\n• Robust design for demanding and dynamic operational environments\n• Contributes to reduced fuel consumption and optimized loading cycles\n• Intuitive, advanced interface for straightforward and rapid operation\n• Consistently reliable load data to improve overall productivity',
+      image: 'https://static.wixstatic.com/media/06e14d_6b6b9f8ed73840e1a83b85b906c3a221~mv2.webp',
     },
     {
       id: 9,
