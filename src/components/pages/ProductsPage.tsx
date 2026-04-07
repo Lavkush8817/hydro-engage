@@ -30,10 +30,11 @@ const ProductsPage = () => {
     },
     {
       id: 3,
-      name: 'Engine Seals & Gaskets',
+      name: 'Swing Bearings',
       category: 'spares',
-      description: 'Precision-engineered Qubota engine seals and gaskets designed for optimal performance and longevity. Made from advanced elastomer materials that resist heat, pressure, and chemical degradation for reliable engine protection.',
-      image: 'https://static.wixstatic.com/media/06e14d_6c4d76da9e33451495efae30b8bbf722~mv2.webp',
+      description: 'Qubota, in partnership with SHINIL Precision, offers high-quality swing bearings with precise gear-cutting and advanced technology, supporting diameters up to 6,500 mm for heavy equipment.',
+      longDescription: 'Qubota proudly serves as the exclusive distributor for SHINIL Precision Co. Ltd. of South Korea, a leader in swing bearing manufacturing with an annual production capacity of 250,000 units. SHINIL\'s state-of-the-art facilities boast cutting-edge technology and specialized expertise for precision gear cutting and rigorous testing of swing bearings up to an impressive 6,500 mm in outer diameter. Qubota is committed to delivering these superior quality swing bearings to customers in India.\n\nKey Features:\n• Precisely gear-cut bearings ensuring an exact fit and exceptionally smooth operation\n• Manufacturing by Shinil utilizing advanced technological processes and stringent quality assurance\n• Broad diameter range (up to 6,500 mm) guaranteeing compatibility with a wide array of heavy equipment\n• Exclusive distribution by Qubota, ensuring reliable availability and dedicated customer service',
+      image: 'https://static.wixstatic.com/media/06e14d_9486f58c907f41918926dc2a3b639b81~mv2.webp',
     },
     {
       id: 4,
