@@ -51,10 +51,11 @@ const ProductsPage = () => {
     },
     {
       id: 6,
-      name: 'Hydraulic Cylinders',
-      category: 'hydraulics',
-      description: 'Professional-grade Qubota hydraulic cylinders built for precision and reliability. Manufactured with hardened steel and advanced sealing technology for superior performance in heavy-duty industrial applications.',
-      image: 'https://static.wixstatic.com/media/06e14d_bb231b0c890b4137ba37a746ed3f680d~mv2.webp',
+      name: 'Rock-Breaker Chisels',
+      category: 'spares',
+      description: 'Qubota\'s rock-breaker chisels are engineered for heavy-duty demolition and quarrying, offering superior durability and performance.',
+      longDescription: 'Qubota\'s rock-breaker chisels are specifically designed and constructed for boulder breaking, concrete demolition, quarrying, slab removal, and sloped/bedrock surfaces. Qubota produces these chisels in its own 39,000 sq m, state-of-the-art facility with global-brand equipment, complete heat-treatment and paint-shop facilities, and multi-stage quality control. Its in-house R&D center constantly improves durability and performance. Made proudly in India from Qubota ISO-certified plant.\n\nKey Features:\n• Chisel diameter ranges from 40 mm to 240 mm\n• Designed with the highest quality raw materials and precise heat treatment\n• Manufacturing range supports major rock-breaker brands and all sizes\n• Strong design for intensive breaking in hard rock and concrete',
+      image: 'https://static.wixstatic.com/media/06e14d_c22fe9afa195490b8c1db08e6436c90f~mv2.webp',
     },
     {
       id: 7,
@@ -333,8 +334,8 @@ const ProductsPage = () => {
                   <h3 className="font-heading text-lg font-bold text-foreground mb-2">
                     Product Description
                   </h3>
-                  <p className="font-paragraph text-base text-muted-foreground leading-relaxed">
-                    {selectedProduct.description}
+                  <p className="font-paragraph text-base text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                    {selectedProduct.longDescription || selectedProduct.description}
                   </p>
                 </div>
                 <div className="bg-muted rounded-lg p-4">
