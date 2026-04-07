@@ -114,6 +114,14 @@ const ProductsPage = () => {
       description: 'Robust Qubota accumulator tank designed for energy storage and pressure stabilization in hydraulic rock breaker systems. Built with high-grade steel construction and advanced safety features for reliable long-term performance.',
       image: 'https://static.wixstatic.com/media/06e14d_d8a429c148b140ddad853182c1f58799~mv2.png',
     },
+    {
+      id: 15,
+      name: 'Ground Engaging Tools (GET) Solutions',
+      category: 'spares',
+      description: 'Qubota delivers superior Ground Engaging Tools (GET) solutions, including teeth, adapters, pins, and locks, engineered for diverse mining and construction applications. Our high-grade, heat-treated boron steel components ensure exceptional durability and performance, reducing operational costs across all major OEM earthmoving equipment.',
+      longDescription: 'Qubota offers a comprehensive range of cost-effective Ground Engaging Tools (GET) designed to meet the rigorous demands of mining and construction. Our product line encompasses teeth, adapters, pins, and locks, suitable for equipment from the smallest to the largest scale. Leveraging over 45 years of expertise from Black Cat Blades Ltd., Qubota\'s GET solutions are manufactured in state-of-the-art facilities, utilizing high-alloy boron steel and precise heat treatment. This meticulous production process ensures that our blades and end bits meet exacting specifications for durability and reliability.\n\nKey Features:\n• Complete array of wear components such as teeth, adapters, side cutters, and cutting edges\n• Manufacturing with high-alloy boron steel and precise heat treatment for enhanced durability\n• Compatibility with most leading OEM bucket and undercarriage systems\n• Design focused on reducing operating costs while performing reliably in the harshest environments',
+      image: 'https://static.wixstatic.com/media/06e14d_ff93c37d2dd74194a810fc7cccd58a9b~mv2.png?originWidth=640&originHeight=448',
+    },
   ];
 
   const products = sampleProducts;
