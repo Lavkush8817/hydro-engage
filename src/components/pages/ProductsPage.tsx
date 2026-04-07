@@ -90,13 +90,6 @@ const ProductsPage = () => {
       image: 'https://static.wixstatic.com/media/06e14d_fbe5b3621f6544b0b117bb3fe545b93b~mv2.png',
     },
     {
-      id: 11,
-      name: 'Engage Machine',
-      category: 'spares',
-      description: 'Professional-grade Qubota engage machine designed for seamless integration with hydraulic rock breaker systems. Built with precision engineering to ensure smooth engagement and reliable performance in continuous industrial operations.',
-      image: 'https://static.wixstatic.com/media/06e14d_8f4103098eae4d21be25dc4c6bf83919~mv2.png',
-    },
-    {
       id: 12,
       name: 'Pressure Meter',
       category: 'hydraulics',
@@ -109,21 +102,6 @@ const ProductsPage = () => {
       category: 'hydraulics',
       description: 'Heavy-duty Qubota hydraulic hose assembly engineered for high-pressure applications in rock breaker systems. Manufactured with premium materials and reinforced construction to withstand extreme pressure and temperature fluctuations.',
       image: 'https://static.wixstatic.com/media/06e14d_a6e496907b7d4f3fb807c2e428fee228~mv2.png',
-    },
-    {
-      id: 14,
-      name: 'Accumulator Tank',
-      category: 'hydraulics',
-      description: 'Robust Qubota accumulator tank designed for energy storage and pressure stabilization in hydraulic rock breaker systems. Built with high-grade steel construction and advanced safety features for reliable long-term performance.',
-      image: 'https://static.wixstatic.com/media/06e14d_d8a429c148b140ddad853182c1f58799~mv2.png',
-    },
-    {
-      id: 15,
-      name: 'Ground Engaging Tools (GET) Solutions',
-      category: 'spares',
-      description: 'Qubota delivers superior Ground Engaging Tools (GET) solutions, including teeth, adapters, pins, and locks, engineered for diverse mining and construction applications. Our high-grade, heat-treated boron steel components ensure exceptional durability and performance, reducing operational costs across all major OEM earthmoving equipment.',
-      longDescription: 'Qubota offers a comprehensive range of cost-effective Ground Engaging Tools (GET) designed to meet the rigorous demands of mining and construction. Our product line encompasses teeth, adapters, pins, and locks, suitable for equipment from the smallest to the largest scale. Leveraging over 45 years of expertise from Black Cat Blades Ltd., Qubota\'s GET solutions are manufactured in state-of-the-art facilities, utilizing high-alloy boron steel and precise heat treatment. This meticulous production process ensures that our blades and end bits meet exacting specifications for durability and reliability.\n\nKey Features:\n• Complete array of wear components such as teeth, adapters, side cutters, and cutting edges\n• Manufacturing with high-alloy boron steel and precise heat treatment for enhanced durability\n• Compatibility with most leading OEM bucket and undercarriage systems\n• Design focused on reducing operating costs while performing reliably in the harshest environments',
-      image: 'https://static.wixstatic.com/media/06e14d_ff93c37d2dd74194a810fc7cccd58a9b~mv2.png?originWidth=640&originHeight=448',
     },
   ];
 
