@@ -90,7 +90,7 @@ export default function AboutPage() {
                     </h2>
                   </div>
                   <p className="text-lg text-muted-foreground font-paragraph leading-relaxed mb-6">
-                    At veetechnologies.com, we are dedicated to transforming product visions into market-ready solutions. 
+                    At A&S Engineering services, we are dedicated to transforming product visions into market-ready solutions. 
                     Our mission is to help organizations overcome challenges in competition, time to market, and cost efficiency 
                     through innovative engineering and manufacturing services.
                   </p>

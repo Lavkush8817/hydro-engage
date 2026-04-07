@@ -343,7 +343,7 @@ export default function ContactPage() {
               <Card className="border-none shadow-lg bg-white">
                 <CardContent className="p-8 md:p-12 text-center">
                   <h2 className="text-3xl font-heading font-bold text-primary mb-4">
-                    Why Choose veetechnologies.com?
+                    Why Choose A&S Engineering services?
                   </h2>
                   <p className="text-lg text-muted-foreground font-paragraph leading-relaxed mb-6">
                     With decades of combined experience in product engineering and manufacturing, we bring 
