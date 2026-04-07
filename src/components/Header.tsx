@@ -33,14 +33,17 @@ export default function Header() {
               </Link>
               
               <div className="relative group">
-                <button
-                  className="flex items-center text-white hover:text-secondary transition-colors duration-200 font-paragraph"
+                <Link
+                  to="/services"
+                  className={`flex items-center text-white hover:text-secondary transition-colors duration-200 font-paragraph ${
+                    isActive('/services') ? 'text-secondary' : ''
+                  }`}
                   onMouseEnter={() => setIsServicesOpen(true)}
                   onMouseLeave={() => setIsServicesOpen(false)}
                 >
                   Services
                   <ChevronDown className="ml-1 h-4 w-4" />
-                </button>
+                </Link>
                 {isServicesOpen && (
                   <div
                     className="absolute top-full left-0 mt-2 w-64 bg-white shadow-xl rounded-lg py-2"
