@@ -62,8 +62,9 @@ const ProductsPage = () => {
       id: 7,
       name: 'Bucket Teeth & Wear Parts',
       category: 'spares',
-      description: 'Durable Qubota bucket teeth and wear parts engineered for maximum impact resistance and longevity. Premium alloy construction provides excellent wear characteristics in abrasive mining and construction environments.',
-      image: 'https://static.wixstatic.com/media/06e14d_aef6f8ff6ab54b128439567026b1c21b~mv2.webp',
+      description: 'Qubota offers a comprehensive range of Ground Engaging Tools (GET) and wear parts, including teeth, adapters, pins, and locks. Manufactured from high-alloy boron steel with precise heat treatment, these components ensure superior durability and cost-effectiveness for all major OEM mining and construction equipment.',
+      longDescription: 'Qubota delivers optimal and economical Ground Engaging Tools (GET) solutions, featuring a diverse product line of teeth, adapters, pins, and locks. These are designed to cater to a wide spectrum of applications, from compact to large-scale mining and construction machinery. Leveraging the extensive expertise of Black Cat Blades Ltd., a company with over 45 years of experience and multiple production facilities globally, Qubota ensures world-class quality. Our wear parts, including blades and end bits, are meticulously fabricated from high-alloy boron steel and undergo precise heat treatment to meet the stringent demands of heavy earthmoving equipment. Key Features include: a complete selection of wear components such as teeth, adapters, side cutters, and cutting edges; manufacturing with high-alloy boron steel and advanced heat treatment for enhanced durability; compatibility with most leading OEM bucket and undercarriage systems; and a design focused on minimizing operational costs while ensuring reliable performance in the most challenging environments.',
+      image: 'https://static.wixstatic.com/media/06e14d_cb80b868d95c4ebd91e23570ec9e3e80~mv2.png',
     },
     {
       id: 8,
