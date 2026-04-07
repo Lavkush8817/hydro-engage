@@ -15,63 +15,63 @@ const ProductsPage = () => {
       id: 1,
       name: 'Excavator Teeth & Adapters',
       category: 'spares',
-      description: 'Premium Kubota excavator teeth and adapters engineered for maximum durability and performance. Manufactured with high-grade alloy steel for extended service life and superior wear resistance in demanding excavation operations.',
+      description: 'Premium Qubota excavator teeth and adapters engineered for maximum durability and performance. Manufactured with high-grade alloy steel for extended service life and superior wear resistance in demanding excavation operations.',
       image: 'https://static.wixstatic.com/media/06e14d_55b25a72810d416eb7dd36f1737c14ac~mv2.webp',
     },
     {
       id: 2,
       name: 'Hydraulic Fasteners & Bolts',
       category: 'hydraulics',
-      description: 'Heavy-duty Kubota hydraulic fasteners and bolts crafted from premium steel alloys. Built to withstand extreme pressure and vibration, ensuring reliable performance and long-lasting durability in hydraulic systems.',
+      description: 'Heavy-duty Qubota hydraulic fasteners and bolts crafted from premium steel alloys. Built to withstand extreme pressure and vibration, ensuring reliable performance and long-lasting durability in hydraulic systems.',
       image: 'https://static.wixstatic.com/media/06e14d_05aacc7436c74a7c9323d30032398dfb~mv2.webp',
     },
     {
       id: 3,
       name: 'Engine Seals & Gaskets',
       category: 'spares',
-      description: 'Precision-engineered Kubota engine seals and gaskets designed for optimal performance and longevity. Made from advanced elastomer materials that resist heat, pressure, and chemical degradation for reliable engine protection.',
+      description: 'Precision-engineered Qubota engine seals and gaskets designed for optimal performance and longevity. Made from advanced elastomer materials that resist heat, pressure, and chemical degradation for reliable engine protection.',
       image: 'https://static.wixstatic.com/media/06e14d_6c4d76da9e33451495efae30b8bbf722~mv2.webp',
     },
     {
       id: 4,
       name: 'Transmission Components',
       category: 'hydraulics',
-      description: 'Kubota transmission components engineered with precision for smooth operation and extended durability. High-quality materials ensure consistent performance under heavy loads and demanding working conditions.',
+      description: 'Qubota transmission components engineered with precision for smooth operation and extended durability. High-quality materials ensure consistent performance under heavy loads and demanding working conditions.',
       image: 'https://static.wixstatic.com/media/06e14d_7ac51409f8bd43a79794310a933aa908~mv2.webp',
     },
     {
       id: 5,
       name: 'Fuel & Air Filters',
       category: 'filtration',
-      description: 'High-efficiency Kubota fuel and air filters designed to protect engine components and maximize performance. Premium filtration media ensures clean fuel and air supply, extending engine life and reducing maintenance costs.',
+      description: 'High-efficiency Qubota fuel and air filters designed to protect engine components and maximize performance. Premium filtration media ensures clean fuel and air supply, extending engine life and reducing maintenance costs.',
       image: 'https://static.wixstatic.com/media/06e14d_f5851c8b465e47828ea2e3d1e0f353e2~mv2.webp',
     },
     {
       id: 6,
       name: 'Hydraulic Cylinders',
       category: 'hydraulics',
-      description: 'Professional-grade Kubota hydraulic cylinders built for precision and reliability. Manufactured with hardened steel and advanced sealing technology for superior performance in heavy-duty industrial applications.',
+      description: 'Professional-grade Qubota hydraulic cylinders built for precision and reliability. Manufactured with hardened steel and advanced sealing technology for superior performance in heavy-duty industrial applications.',
       image: 'https://static.wixstatic.com/media/06e14d_bb231b0c890b4137ba37a746ed3f680d~mv2.webp',
     },
     {
       id: 7,
       name: 'Bucket Teeth & Wear Parts',
       category: 'spares',
-      description: 'Durable Kubota bucket teeth and wear parts engineered for maximum impact resistance and longevity. Premium alloy construction provides excellent wear characteristics in abrasive mining and construction environments.',
+      description: 'Durable Qubota bucket teeth and wear parts engineered for maximum impact resistance and longevity. Premium alloy construction provides excellent wear characteristics in abrasive mining and construction environments.',
       image: 'https://static.wixstatic.com/media/06e14d_aef6f8ff6ab54b128439567026b1c21b~mv2.webp',
     },
     {
       id: 8,
       name: 'Engine Bearings & Bushings',
       category: 'spares',
-      description: 'High-precision Kubota engine bearings and bushings manufactured to strict tolerances. Advanced materials provide excellent load-bearing capacity and thermal stability for reliable long-term engine performance.',
+      description: 'High-precision Qubota engine bearings and bushings manufactured to strict tolerances. Advanced materials provide excellent load-bearing capacity and thermal stability for reliable long-term engine performance.',
       image: 'https://static.wixstatic.com/media/06e14d_1cb35d5d2382485c8cb939a8b68a487d~mv2.webp',
     },
     {
       id: 9,
       name: 'Undercarriage Components',
       category: 'spares',
-      description: 'Robust Kubota undercarriage components designed for extreme durability and reliability. Built with reinforced steel construction to withstand continuous stress and provide extended service life in challenging terrain.',
+      description: 'Robust Qubota undercarriage components designed for extreme durability and reliability. Built with reinforced steel construction to withstand continuous stress and provide extended service life in challenging terrain.',
       image: 'https://static.wixstatic.com/media/06e14d_758f05a486b84fa092d26676eef37988~mv2.webp',
     },
   ];
@@ -121,10 +121,10 @@ const ProductsPage = () => {
             className="text-center"
           >
             <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-4">
-              Kubota Spare Parts & Components
+              Qubota Spare Parts & Components
             </h1>
             <p className="font-paragraph text-lg text-primary-foreground/90 max-w-2xl mx-auto">
-              Premium quality spare parts and components provided by Kubota. Engineered for durability, reliability, and superior performance in demanding industrial applications.
+              Premium quality spare parts and components provided by Qubota. Engineered for durability, reliability, and superior performance in demanding industrial applications.
             </p>
           </motion.div>
         </div>
