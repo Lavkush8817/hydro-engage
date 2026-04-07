@@ -173,6 +173,20 @@ const ProductsPage = () => {
       {/* Main Content */}
       <section className="flex-1 w-full py-16 md:py-24">
         <div className="max-w-[100rem] mx-auto px-4 md:px-8">
+          {/* Featured Image Container */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-12 rounded-2xl overflow-hidden"
+          >
+            <Image 
+              src="https://static.wixstatic.com/media/06e14d_67c0dcba0a034a1fbd8b837e5a6334c4~mv2.webp" 
+              alt="Qubota spare parts and components showcase" 
+              className="w-full h-auto object-cover"
+            />
+          </motion.div>
+
           {/* Category Filter */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
