@@ -77,6 +77,41 @@ const ProductsPage = () => {
       description: 'Robust Qubota undercarriage components designed for extreme durability and reliability. Built with reinforced steel construction to withstand continuous stress and provide extended service life in challenging terrain.',
       image: 'https://static.wixstatic.com/media/06e14d_758f05a486b84fa092d26676eef37988~mv2.webp',
     },
+    {
+      id: 10,
+      name: 'Hydraulic Pump',
+      category: 'hydraulics',
+      description: 'High-performance Qubota hydraulic pump engineered for rock breaker equipment and heavy-duty applications. Precision-manufactured with advanced sealing technology to deliver consistent pressure and flow rates, ensuring reliable operation in demanding conditions.',
+      image: 'https://static.wixstatic.com/media/06e14d_fbe5b3621f6544b0b117bb3fe545b93b~mv2.png',
+    },
+    {
+      id: 11,
+      name: 'Engage Machine',
+      category: 'spares',
+      description: 'Professional-grade Qubota engage machine designed for seamless integration with hydraulic rock breaker systems. Built with precision engineering to ensure smooth engagement and reliable performance in continuous industrial operations.',
+      image: 'https://static.wixstatic.com/media/06e14d_8f4103098eae4d21be25dc4c6bf83919~mv2.png',
+    },
+    {
+      id: 12,
+      name: 'Pressure Meter',
+      category: 'hydraulics',
+      description: 'Precision Qubota pressure meter designed for accurate monitoring of hydraulic systems in rock breaker equipment. Features digital display and high-accuracy sensors for real-time pressure readings, ensuring optimal system performance and safety.',
+      image: 'https://static.wixstatic.com/media/06e14d_9b5eccca30564d93a0064dcf78b8bd20~mv2.png',
+    },
+    {
+      id: 13,
+      name: 'Hydraulic Hose Assembly',
+      category: 'hydraulics',
+      description: 'Heavy-duty Qubota hydraulic hose assembly engineered for high-pressure applications in rock breaker systems. Manufactured with premium materials and reinforced construction to withstand extreme pressure and temperature fluctuations.',
+      image: 'https://static.wixstatic.com/media/06e14d_a6e496907b7d4f3fb807c2e428fee228~mv2.png',
+    },
+    {
+      id: 14,
+      name: 'Accumulator Tank',
+      category: 'hydraulics',
+      description: 'Robust Qubota accumulator tank designed for energy storage and pressure stabilization in hydraulic rock breaker systems. Built with high-grade steel construction and advanced safety features for reliable long-term performance.',
+      image: 'https://static.wixstatic.com/media/06e14d_d8a429c148b140ddad853182c1f58799~mv2.png',
+    },
   ];
 
   const products = sampleProducts;
