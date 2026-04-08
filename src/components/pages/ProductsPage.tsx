@@ -89,13 +89,13 @@ const ProductsPage = () => {
       description: 'High-performance Qubota hydraulic pump engineered for rock breaker equipment and heavy-duty applications. Precision-manufactured with advanced sealing technology to deliver consistent pressure and flow rates, ensuring reliable operation in demanding conditions.',
       image: 'https://static.wixstatic.com/media/06e14d_fbe5b3621f6544b0b117bb3fe545b93b~mv2.png',
     },
-    {
-      id: 11,
-      name: 'Engage Machine',
-      category: 'spares',
-      description: 'Professional-grade Qubota engage machine designed for seamless integration with hydraulic rock breaker systems. Built with precision engineering to ensure smooth engagement and reliable performance in continuous industrial operations.',
-      image: 'https://static.wixstatic.com/media/06e14d_8f4103098eae4d21be25dc4c6bf83919~mv2.png',
-    },
+    // {
+    //   id: 11,
+    //   name: 'Engage Machine',
+    //   category: 'spares',
+    //   description: 'Professional-grade Qubota engage machine designed for seamless integration with hydraulic rock breaker systems. Built with precision engineering to ensure smooth engagement and reliable performance in continuous industrial operations.',
+    //   image: 'https://static.wixstatic.com/media/06e14d_8f4103098eae4d21be25dc4c6bf83919~mv2.png',
+    // },
     {
       id: 12,
       name: 'Pressure Meter',
