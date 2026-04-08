@@ -65,7 +65,7 @@ const ProductsPage = () => {
       category: 'spares',
       description: 'Qubota offers a comprehensive range of Ground Engaging Tools (GET) and wear parts, including teeth, adapters, pins, and locks. Manufactured from high-alloy boron steel with precise heat treatment, these components ensure superior durability and cost-effectiveness for all major OEM mining and construction equipment.',
       longDescription: 'Qubota delivers optimal and economical Ground Engaging Tools (GET) solutions, featuring a diverse product line of teeth, adapters, pins, and locks. These are designed to cater to a wide spectrum of applications, from compact to large-scale mining and construction machinery. Leveraging the extensive expertise of Black Cat Blades Ltd., a company with over 45 years of experience and multiple production facilities globally, Qubota ensures world-class quality. Our wear parts, including blades and end bits, are meticulously fabricated from high-alloy boron steel and undergo precise heat treatment to meet the stringent demands of heavy earthmoving equipment. Key Features include: a complete selection of wear components such as teeth, adapters, side cutters, and cutting edges; manufacturing with high-alloy boron steel and advanced heat treatment for enhanced durability; compatibility with most leading OEM bucket and undercarriage systems; and a design focused on minimizing operational costs while ensuring reliable performance in the most challenging environments.',
-      image: 'https://static.wixstatic.com/media/06e14d_cb80b868d95c4ebd91e23570ec9e3e80~mv2.png',
+      image: '',
     },
     {
       id: 8,
@@ -136,8 +136,8 @@ const ProductsPage = () => {
     { id: 'filtration', label: 'Filtration' },
   ];
 
-  const filteredProducts = selectedCategory === 'all' 
-    ? products 
+  const filteredProducts = selectedCategory === 'all'
+    ? products
     : products.filter(p => p.category === selectedCategory);
 
   const containerVariants = {
@@ -163,7 +163,7 @@ const ProductsPage = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <Header />
-      
+
       {/* Hero Section */}
       <section className="w-full bg-gradient-to-r from-primary to-primary/80 py-16 md:py-24">
         <div className="max-w-[100rem] mx-auto px-4 md:px-8">
@@ -336,9 +336,9 @@ const ProductsPage = () => {
               </DialogHeader>
               <div className="space-y-6">
                 <div className="w-full h-64 bg-muted rounded-lg overflow-hidden">
-                  <Image 
-                    src={selectedProduct.image} 
-                    alt={selectedProduct.name} 
+                  <Image
+                    src={selectedProduct.image}
+                    alt={selectedProduct.name}
                     className="w-full h-full object-cover"
                   />
                 </div>
