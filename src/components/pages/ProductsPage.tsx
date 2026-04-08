@@ -110,13 +110,13 @@ const ProductsPage = () => {
       description: 'Heavy-duty Qubota hydraulic hose assembly engineered for high-pressure applications in rock breaker systems. Manufactured with premium materials and reinforced construction to withstand extreme pressure and temperature fluctuations.',
       image: 'https://static.wixstatic.com/media/06e14d_a6e496907b7d4f3fb807c2e428fee228~mv2.png',
     },
-    {
-      id: 14,
-      name: 'Accumulator Tank',
-      category: 'hydraulics',
-      description: 'Robust Qubota accumulator tank designed for energy storage and pressure stabilization in hydraulic rock breaker systems. Built with high-grade steel construction and advanced safety features for reliable long-term performance.',
-      image: 'https://static.wixstatic.com/media/06e14d_d8a429c148b140ddad853182c1f58799~mv2.png',
-    },
+    // {
+    //   id: 14,
+    //   name: 'Accumulator Tank',
+    //   category: 'hydraulics',
+    //   description: 'Robust Qubota accumulator tank designed for energy storage and pressure stabilization in hydraulic rock breaker systems. Built with high-grade steel construction and advanced safety features for reliable long-term performance.',
+    //   image: 'https://static.wixstatic.com/media/06e14d_d8a429c148b140ddad853182c1f58799~mv2.png',
+    // },
     {
       id: 15,
       name: 'Ground Engaging Tools (GET) Solutions',
