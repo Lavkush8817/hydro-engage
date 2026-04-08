@@ -19,7 +19,7 @@ const ProductsPage = () => {
       name: 'Excavator Teeth & Adapters',
       category: 'spares',
       description: 'Premium Qubota excavator teeth and adapters engineered for maximum durability and performance. Manufactured with high-grade alloy steel for extended service life and superior wear resistance in demanding excavation operations.',
-      image: 'https://static.wixstatic.com/media/06e14d_458112a76baf48569db35c7862c33494~mv2.webp',
+      image: 'https://static.wixstatic.com/media/06e14d_4994c662eb944ed5af354c21703db6da~mv2.png',
     },
     {
       id: 2,
