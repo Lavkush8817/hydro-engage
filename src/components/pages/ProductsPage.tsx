@@ -222,7 +222,7 @@ const ProductsPage = () => {
               <motion.div key={product.id} variants={itemVariants}>
                 <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col">
                   <div className="w-full h-48 bg-muted overflow-hidden">
-                    <Image src="https://static.wixstatic.com/media/06e14d_ec3f04a4941147e1aed503d4d943111a~mv2.png" alt={product.name} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                    <Image src={product.image} alt={product.name} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                   </div>
                   <div className="p-6 flex flex-col flex-1">
                     <h3 className="font-heading text-lg font-bold text-foreground mb-2">
